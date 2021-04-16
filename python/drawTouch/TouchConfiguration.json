@@ -1,9 +1,13 @@
 {
   "scanTimes": 11,
-  "nameCSV": "TSI_Fine_All_channle.csv",
+  "nameCSV_fine": "fine.csv",
+  "nameCSV_average": "average.csv",
+  "nameCSV_variance": "variance.csv",
+  "nameCSV_baseline": "baseline.csv",
+  "nameCSV_touch": "touch.csv",
   "nameTempfile": "temp",
 
-   "save_Touch2csv.py": {
+  "save_Touch2csv.py": {
     "baudrate": 500000,
     "port": "COM11"
   },
