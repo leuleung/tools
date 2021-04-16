@@ -1,0 +1,27 @@
+{
+  "scanTimes": 11,
+  "nameCSV": "TSI_Fine_All_channle.csv",
+  "nameTempfile": "temp",
+
+   "save_Touch2csv.py": {
+    "baudrate": 500000,
+    "port": "COM11"
+  },
+
+  "algorithm_tsi.py": {
+    "Normal_Confidence": 5,
+    "Mean_WindowSize": 8,
+    "Variance_adjustment": 1,
+    "updateBaseline": {
+      "VarianceThreshold": 0.5,
+      "updateRate": 0.25
+    }
+  },
+
+  "show_TSIAlgorithm_animation.py": {
+    "validChannle": 0,
+    "CacheImage": 16,
+    "minY": 155,
+    "maxY": 200
+  }
+}

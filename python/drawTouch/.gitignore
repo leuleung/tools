@@ -1,0 +1,19 @@
+
+# project
+*.uvgui.*
+*.uvguix.*
+*.uvoptx
+
+# folder
+/.vscode/*
+/Obj/*
+/User/Listings/*
+/User/RTE/*
+/docs/*
+
+# python
+/__pycache__/*
+
+
+/temp
+/*.csv
