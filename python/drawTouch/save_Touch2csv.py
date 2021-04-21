@@ -3,9 +3,9 @@
 
 import serial
 import json
-from crccheck.crc import Crc16CcittFalse
 import csv
 import struct
+# from crccheck.crc import Crc16CcittFalse
 
 
 gjson = {
